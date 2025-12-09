@@ -17,12 +17,12 @@ After creating the environment start it by running the activation script. This s
   
 For Window:  
 ```
-myenv\Scripts\Activate.ps1
+model_env\Scripts\Activate.ps1
 ```
 
 For Mac/Linux
 ```
-source myenv/bin/activate
+source model_env/bin/activate
 ```
 
 Install all the applications in `requirements.txt`  
