@@ -1,0 +1,33 @@
+# Adaptive Learning Application
+
+For the EPICS (Engineering Project in Community Service) we are aiming to create an application that teaches students math and english concepts via quizes.  
+Below is the instruction to set up our project.
+
+
+## Setting up the model API
+
+Navigate to the `model_api` folder  
+
+In the model API section create a Python Virtual Environment using
+```
+python -m venv model_env
+```
+
+After creating the environment start it by running the activation script. This step differs based on your OS.  
+  
+For Window:  
+```
+myenv\Scripts\Activate.ps1
+```
+
+For Mac/Linux
+```
+source myenv/bin/activate
+```
+
+Install all the applications in `requirements.txt`  
+```
+pip install -r requirements.txt
+```
+
+Finally run the `predict_level.py` file. This will start the development server.  
